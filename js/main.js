@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () =>
             var SelectedWord = Words[Math.floor(Math.random() * Words.length)];
             return SelectedWord;
         }
-        let word = RandomWordGenerator()
+        let word = RandomWordGenerator();
         // console.log(word)
         const keys = document.querySelectorAll('.keyboard-row button')
         let guessedWords = [[]]
