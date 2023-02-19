@@ -77,6 +77,10 @@ document.addEventListener("DOMContentLoaded", () =>
             if (guessedWords.length === 6)
             {
                 window.alert(`Sorry! You have no more guesses, The word is ${word.toUpperCase()}.`)
+                setTimeout(function()
+                {
+                    window.location.reload(1);
+                }, 5000);
             }
             guessedWords.push([])
 
