@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () =>
             return SelectedWord;
         }
         let word = RandomWordGenerator()
-        console.log(word)
+        // console.log(word)
         const keys = document.querySelectorAll('.keyboard-row button')
         let guessedWords = [[]]
         let availableSpace = 1
